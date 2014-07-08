@@ -1,3 +1,4 @@
+
 # ##############################################################################
 # Desktop Applications
 #
@@ -71,12 +72,6 @@ sudo apt-get install --install-suggests \
     htop \
     powertop
 
-# Hardware Specific Stuff ------------------------------------------------------
-# Only necessary on systems with a platter drive.
-# sudo apt-get install --install-suggests \
-#     hddtemp \
-#     sdparm
-
 
 
 # ==============================================================================
@@ -112,8 +107,7 @@ sudo apt-get install \
 
 # Education --------------------------------------------------------------------
 sudo apt-get install \
-    kstars \
-    librecad
+    kstars
 
 # Games ------------------------------------------------------------------------
 sudo apt-get install \
