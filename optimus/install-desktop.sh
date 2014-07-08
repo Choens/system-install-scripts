@@ -120,9 +120,7 @@ sudo apt-get install \
 sudo apt-get install \
     clementine \
     kamerka \
-    plasma-mediacenter \
-    smplayer #\
-    #vlc
+    smplayer
 
 # Office / PIM -----------------------------------------------------------------
 sudo apt-get install --install-suggests \
