@@ -129,9 +129,6 @@ sudo apt-get install --install-suggests \
     filelight \
     okular-extra-backends
 
-# Makes it easier to browse Samba shares.
-#sudo apt-get install smb4k
-
 # sudo apt-get install --install-suggests \
 #     libreoffice
 
