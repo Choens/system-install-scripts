@@ -136,7 +136,6 @@ sudo apt-get install \
     marble \
     marble-plugins \
     recorditnow \
-    share-like-connect \
     speedcrunch \
     synergy
 
@@ -146,3 +145,12 @@ sudo apt-get install \
     kget \
     owncloud-client \
     plasma-active-webbrowser
+
+
+
+# ==============================================================================
+# Remove Stuff
+# ==============================================================================
+
+# LibreOffice ------------------------------------------------------------------
+sudo apt-get autoremove --purge libreoffice-*
