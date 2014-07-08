@@ -47,7 +47,6 @@ sudo apt-get install \
     r-cran-rcolorbrewer \
     r-cran-rmysql \
     r-cran-rodbc \
-    r-cran-rpart \
     r-cran-spatial \
     r-cran-vcd \
     r-cran-xtable \
