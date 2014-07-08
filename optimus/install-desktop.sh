@@ -129,9 +129,6 @@ sudo apt-get install --install-suggests \
     filelight \
     okular-extra-backends
 
-# sudo apt-get install --install-suggests \
-#     libreoffice
-
 # Utilities / System -----------------------------------------------------------
 sudo apt-get install \
     krecipes \
