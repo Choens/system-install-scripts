@@ -143,8 +143,7 @@ sudo apt-get install \
 sudo apt-get install \
     firefox \
     kget \
-    owncloud-client \
-    plasma-active-webbrowser
+    owncloud-client
 
 
 
