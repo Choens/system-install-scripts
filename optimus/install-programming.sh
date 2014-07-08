@@ -24,30 +24,22 @@ sudo apt-get install \
     r-cran-bitops \
     r-cran-catools \
     r-cran-chron \
-    r-cran-class \
-    r-cran-cluster \
-    r-cran-codetools \
     r-cran-dbi \
     r-cran-domc \
     r-cran-dosnow \
     r-cran-foreach \
-    r-cran-foreign \
     r-cran-gdata \
     r-cran-gtools \
     r-cran-hmisc \
     r-cran-iterators \
     r-cran-mapdata \
     r-cran-maps \
-    r-cran-mass \
-    r-cran-matrix \
-    r-cran-mgcv  \
     r-cran-multicore \
     r-cran-psy \
     r-cran-randomforest \
     r-cran-rcolorbrewer \
     r-cran-rmysql \
     r-cran-rodbc \
-    r-cran-spatial \
     r-cran-vcd \
     r-cran-xtable \
     r-doc-html
