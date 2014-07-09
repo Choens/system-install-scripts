@@ -24,6 +24,11 @@
 python-web2py
 jabref
 darktable
+git-sh
+Remove LibreOffice
+look at qgit too.
+
+remove truecrypt
 
 # Review
 # r-cran-zelig 
