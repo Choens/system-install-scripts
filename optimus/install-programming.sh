@@ -16,21 +16,21 @@
 
 # CLI ---------------------------------------------------------------------
 sudo apt-get install \
-    r-recommended \
     r-base-dev \
     r-base-html \
     r-cran-amelia \
     r-cran-bayesm \
-    r-cran-bitops \
-    r-cran-catools \
-    r-cran-chron \
+    r-cran-boot \
+    r-cran-diagnosismed \
     r-cran-dbi \
-    r-cran-domc \
-    r-cran-dosnow \
+    r-cran-downloader \
+    r-cran-epi \
+    r-cran-epitools \
     r-cran-foreach \
     r-cran-gdata \
     r-cran-gtools \
     r-cran-hmisc \
+    r-cran-medadherence \
     r-cran-iterators \
     r-cran-mapdata \
     r-cran-maps \
@@ -42,9 +42,9 @@ sudo apt-get install \
     r-cran-rodbc \
     r-cran-vcd \
     r-cran-xtable \
-    r-doc-html
-
-#sudo apt-get install rkward 
+    r-doc-html \
+    r-doc-info \
+    r-recommended
 
 # Install RStudio:
 # http://www.rstudio.com/ide/download/desktop
@@ -66,6 +66,7 @@ sudo apt-get install \
     ffe \
     gcc \
     gdb \
+    source-highlihgt \
     tmux
 
 
@@ -77,8 +78,7 @@ sudo apt-get install \
 # MySQL ----------------------------------------------------------------------
 sudo apt-get install \
     mysql-client \
-    mysql-utilities \
-    mysql-workbench
+    mysql-utilities
 
 # ODBC -------------------------------------------------------------------------
 sudo apt-get install \
@@ -88,29 +88,23 @@ sudo apt-get install \
     unixodbc-bin \
     unixodbc-dev
 
-# I quit installing these when I left HZA.
-#sudo apt-get autoremove --purge \
-#    tdsodbc odbc-postgresql
-
 # Postgres ---------------------------------------------------------------------
-# I stopped installing these when I left HZA.
-#sudo apt-get autoremove --purge \
-#    postgresql-client \
-#    pgadmin3 \
-#    pgagent \
-#    pgloader
-
-
-# SQL Server -------------------------------------------------------------------
-# I stopped installing this when I left HZA.
-#sudo apt-get autoremove --purge \
-#    freetds-bin \
-#    sqsh
+sudo apt-get install \
+    odbc-postgresql \
+    postgresql-client \
+    pgadmin3 \
+    pgagent \
+    pgloader
 
 # Tora -------------------------------------------------------------------------
 sudo apt-get install \
     libqt4-sql* \
     tora
+
+# Other ------------------------------------------------------------------------
+# www.sql-workbench.net
+# dbeaver.jkiss.org
+
 
 
 # ==============================================================================
@@ -132,15 +126,18 @@ sudo apt-get install \
     python-ropemacs
 
 # KDevelop ---------------------------------------------------------------------
-#sudo apt-get autoremove --purge \
-#    kdevelop \
-#    kdevelop-php \
-#    kdevelop-php-docs
+sudo apt-get install \
+    kdevelop \
+    kdevelop-php \
+    kdevelop-php-docs
 
+# Other ------------------------------------------------------------------------
+sudo apt-get install 
 
 
 # ==============================================================================
 # GIS
+# TODO - MOVE THIS TO DESKTOP
 # ==============================================================================
 
 # # CLI ---------------------------------------------------------------------
@@ -170,15 +167,14 @@ sudo apt-get install \
     git-man \
     git-svn \
     git-man \
-    git-svn \
     tig
-
-#sudo apt-get autoremove --purge svnkit
 
 # Desktop ----------------------------------------------------------------------
 sudo apt-get install \
     git-cola \
-    git-gui
+    git-gui \
+    gitk \
+    qgit
 
 
 
