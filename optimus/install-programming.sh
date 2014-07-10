@@ -165,7 +165,7 @@ sudo apt-get install git-cola git-gui gitk python-inotify
 sudo apt-get install kdewebdev kdesdk
 
 # Desktop ----------------------------------------------------------------------
-sudo apt-get install kdiff3 komparator krename krusader
+sudo apt-get install kdiff3 krename krusader
 
 
 
