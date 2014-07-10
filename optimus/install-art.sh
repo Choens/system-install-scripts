@@ -3,8 +3,7 @@
 #
 # Author: Andy Choens
 #
-# Art applications I tend to use. I will list out apps I use for Karen
-# separately.
+# List of photographic / art programs I use on Optimus.
 #
 # ##############################################################################
 

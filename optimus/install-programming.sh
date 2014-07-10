@@ -3,7 +3,17 @@
 #
 # Author: Andy Choens
 #
-# Collection of programming applications I install on most systems I use.
+# Collection of programming applications isntalled on Optimus.
+#
+# Sections
+# - Analysis
+# - Build Essentials / CLI
+# - Databases
+# - Editors / IDEs
+# - Git
+# - KDE
+# - Markup Languages
+# - Python
 #
 # ##############################################################################
 
@@ -11,7 +21,6 @@
 
 # ==============================================================================
 # Analysis
-#
 # ==============================================================================
 
 # CLI ---------------------------------------------------------------------
@@ -66,7 +75,7 @@ sudo apt-get install \
     ffe \
     gcc \
     gdb \
-    source-highlihgt \
+    source-highlight \
     tmux
 
 
@@ -76,9 +85,7 @@ sudo apt-get install \
 # ==============================================================================
 
 # MySQL ----------------------------------------------------------------------
-sudo apt-get install \
-    mysql-client \
-    mysql-utilities
+sudo apt-get install mysql-client mysql-utilities
 
 # ODBC -------------------------------------------------------------------------
 sudo apt-get install \
@@ -97,9 +104,7 @@ sudo apt-get install \
     pgloader
 
 # Tora -------------------------------------------------------------------------
-sudo apt-get install \
-    libqt4-sql* \
-    tora
+sudo apt-get install libqt4-sql* tora
 
 # Other ------------------------------------------------------------------------
 # www.sql-workbench.net
@@ -109,7 +114,6 @@ sudo apt-get install \
 
 # ==============================================================================
 # Editors / IDEs
-#
 # ==============================================================================
 
 # Emacs ------------------------------------------------------------------------
@@ -126,31 +130,10 @@ sudo apt-get install \
     python-ropemacs
 
 # KDevelop ---------------------------------------------------------------------
-sudo apt-get install \
-    kdevelop \
-    kdevelop-php \
-    kdevelop-php-docs
+sudo apt-get install kdevelop kdevelop-php kdevelop-php-docs
 
 # Other ------------------------------------------------------------------------
-sudo apt-get install 
-
-
-# ==============================================================================
-# GIS
-# TODO - MOVE THIS TO DESKTOP
-# ==============================================================================
-
-# # CLI ---------------------------------------------------------------------
-# sudo apt-get install \
-
-# # Desktop ----------------------------------------------------------------------
-# sudo apt-get install \
-#     grass \
-#     grass-doc \
-#     qgis \
-#     qgis-plugin-grass \
-#     qgis-providers \
-#     qgis-sqlanywhere*
+sudo apt-get install jedit
 
 
 
@@ -170,28 +153,19 @@ sudo apt-get install \
     tig
 
 # Desktop ----------------------------------------------------------------------
-sudo apt-get install \
-    git-cola \
-    git-gui \
-    gitk \
-    qgit
+sudo apt-get install git-cola git-gui gitk python-inotify
 
 
 
 # ==============================================================================
-# KDE Packages
+# KDE
 # ==============================================================================
 
 # META -------------------------------------------------------------------------
-sudo apt-get install \
-    kdewebdev \
-    kdesdk
+sudo apt-get install kdewebdev kdesdk
 
 # Desktop ----------------------------------------------------------------------
-sudo apt-get install \
-    komparator \
-    krename \
-    krusader
+sudo apt-get install komparator krename krusader
 
 
 
@@ -200,10 +174,7 @@ sudo apt-get install \
 # ==============================================================================
 
 # CLI ---------------------------------------------------------------------
-sudo apt-get install \
-    html2text \
-    markdown \
-    pandoc
+sudo apt-get install html2text markdown pandoc
 
 # LaTeX ------------------------------------------------------------------------
 sudo apt-get install \
@@ -211,13 +182,6 @@ sudo apt-get install \
     texlive-latex-extra \
     texlive-latex-recommended \
     texmaker
-
-# texlive-luatex 
-# At some point, this will be worth installing, but it isn't stable yet.
-
-# auctex
-# Unfortunately, auctex has a bunch of non-emacs / non-latex deps.
-# It is better to install directly.
 
 
 

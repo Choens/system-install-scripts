@@ -4,18 +4,13 @@
 #
 # Author: Andy Choens
 #
-# Collection of applications I install on most systems I use.
-# This file is broken down into sections, to make it easier to install a working
-# system quickly. Programming tools are kept separately, on the off change I
-# ever own a computer I don't use for programming.
-#
-# At the time of this writing, I use Kubuntu and MANY KDE apps. Most of what is
-# here depends on the KDE Libs and QT. Don't use this if you don't want that.
+# Collection of general purpose applications I have installed on Optimus.
 #
 # Sections:
 # - CLI / Fonts
 # - Laptop / Power Management
 # - Desktop Applications
+#
 # ##############################################################################
 
 
