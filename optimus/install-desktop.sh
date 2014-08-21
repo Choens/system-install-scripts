@@ -59,7 +59,8 @@ sudo apt-get install --install-suggests \
 # Laptop Tools -----------------------------------------------------------------
 sudo apt-get install --install-suggests \
     laptop-detect \
-    laptop-mode-tools
+    laptop-mode-tools \
+    sdparm
 
 # Power Management -------------------------------------------------------------
 sudo apt-get install --install-suggests \
@@ -126,13 +127,17 @@ sudo apt-get install --install-suggests \
 
 # Utilities / System -----------------------------------------------------------
 sudo apt-get install \
+    konq-plugins \
+    konqueror \
+    kpart-webkit \
     krecipes \
     kteatime \
     marble \
     marble-plugins \
     recorditnow \
     speedcrunch \
-    synergy
+    synergy \
+    yakuake
 
 # Web --------------------------------------------------------------------------
 sudo apt-get install \
