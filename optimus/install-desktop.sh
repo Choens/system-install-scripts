@@ -152,4 +152,5 @@ sudo apt-get install \
 # ==============================================================================
 
 # LibreOffice ------------------------------------------------------------------
-sudo apt-get autoremove --purge libreoffice-*
+sudo apt-get autoremove --purge flashplugin* libflash*
+rm -rf ~/.adobe
