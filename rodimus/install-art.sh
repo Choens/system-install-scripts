@@ -21,4 +21,3 @@ sudo apt-get install \
     kipi-plugins \
     krita \
     showfoto
-

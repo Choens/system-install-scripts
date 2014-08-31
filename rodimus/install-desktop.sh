@@ -91,7 +91,8 @@ sudo apt-get install \
     kde-telepathy-call-ui \
     kwin-style-qtcurve \
     librecad \
-    plasma-containments-addons
+    plasma-containments-addons \
+    rekonq
 
 # Multimedia -------------------------------------------------------------------
 sudo apt-get install \
@@ -108,22 +109,26 @@ sudo apt-get install \
 
 # Utilities / System -----------------------------------------------------------
 sudo apt-get install \
+    konq-plugins \
+    konqueror \
+    kpart-webkit \
     krecipes \
     kteatime \
     marble \
     marble-plugins \
     recorditnow \
-    share-like-connect \
     speedcrunch \
-    synergy
+    synergy \
+    yakuake
 
 # Web --------------------------------------------------------------------------
 sudo apt-get install \
-    firefox \
     kget \
     owncloud-client
 
 # ==============================================================================
 # Remove Stuff
 # ==============================================================================
-    sudo apt-get autoremove --purge libreoffice*
+# LibreOffice ------------------------------------------------------------------
+sudo apt-get autoremove --purge flashplugin* libflash*
+rm -rf ~/.adobe
