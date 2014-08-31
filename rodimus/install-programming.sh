@@ -1,4 +1,4 @@
-# ##############################################################################
+\# ##############################################################################
 # Desktop Applications
 #
 # Author: Andy Choens
@@ -86,7 +86,7 @@ sudo apt-get install \
 # ==============================================================================
 
 # MySQL ----------------------------------------------------------------------
-sudo apt-get install mysql-client mysql-utilities
+sudo apt-get install libqt4-sql-mysql mysql-client mysql-utilities
 
 # ODBC -------------------------------------------------------------------------
 sudo apt-get install \
@@ -98,14 +98,25 @@ sudo apt-get install \
 
 # Postgres ---------------------------------------------------------------------
 sudo apt-get install \
+    libqt4-sql-psql \
     odbc-postgresql \
     postgresql-client \
     pgadmin3 \
     pgagent \
     pgloader
 
+# SQLite -----------------------------------------------------------------------    
+sudo apt-get install \
+    libspatialite5 \
+    libsqliteodbc \
+    libqt4-sql-sqlite \
+    r-cran-rsqlite \
+    sqlite3 sqlite3-doc \
+    sqlitebrowser \
+    sqliteman 
+
 # Tora -------------------------------------------------------------------------
-sudo apt-get install libqt4-sql* tora
+sudo apt-get install libqt4-sql-odbc tora
 
 # Other ------------------------------------------------------------------------
 # www.sql-workbench.net
@@ -135,7 +146,7 @@ sudo apt-get install \
 # 
 
 # KDevelop ---------------------------------------------------------------------
-sudo apt-get install kdevelop kdevelop-php kdevelop-php-docs
+sudo apt-get install kdevelop kdevelop-php kdevelop-php-docs ksshaskpass
 
 # Other ------------------------------------------------------------------------
 sudo apt-get install jedit
@@ -171,7 +182,7 @@ sudo apt-get install \
     tig
 
 # Desktop ----------------------------------------------------------------------
-sudo apt-get install git-cola git-gui gitk python-inotify
+sudo apt-get install git-cola git-gui gitk python-inotifyx
 
 
 
@@ -179,12 +190,12 @@ sudo apt-get install git-cola git-gui gitk python-inotify
 # KDE Packages
 # ==============================================================================
 
-# META -------------------------------------------------------------------------
-sudo apt-get install kdewebdev kdesdk
-
 # Desktop ----------------------------------------------------------------------
 sudo apt-get install kdiff3 krename krusader
 
+# META -------------------------------------------------------------------------
+## TODO REMOVE FROM LAPTOP . . . . at least the kdesdk
+sudo apt-get install kdewebdev kdesdk
 
 
 # ==============================================================================
