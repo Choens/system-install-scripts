@@ -130,7 +130,7 @@ sudo apt-get install \
     python-ropemacs
 
 # KDevelop ---------------------------------------------------------------------
-sudo apt-get install kdevelop kdevelop-php kdevelop-php-docs
+sudo apt-get install kdevelop kdevelop-php kdevelop-php-docs ksshaskpass
 
 # Other ------------------------------------------------------------------------
 sudo apt-get install jedit
