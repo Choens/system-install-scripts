@@ -29,6 +29,7 @@
 sudo apt-get install \
     #akonadiconsole \
     deborphan \
+    kde-cli-tools \
     kgpg \
     kio-ftps \
     konsolekalendar \
@@ -36,19 +37,16 @@ sudo apt-get install \
     kwalletcli \
     p7zip-full \
     pwgen \
-    sshuttle
+    #sshuttle
 
 # install the following if you need / use VPN services.
 # openvpn is needed to connect to my VPN service.
-sudo apt-get install \
-    openconnect \
-    openswan \
-    openvpn \q
-
-# Hal enables Amazon Instant Videos  
-# sudo apt-get install --install-suggests \
-#    hal
-
+#sudo apt-get install \
+    #openconnect \
+    #openswan \
+    #openvpn
+# IF you install any of these, be sure to install the network-manager frontend.
+    
 # Fonts ------------------------------------------------------------------------
 sudo apt-get install --install-suggests \
     fonts-droid \
@@ -86,35 +84,31 @@ sudo apt-get install --install-suggests \
 
 # KDE Meta ---------------------------------------------------------------------
 sudo apt-get install \
-    juk \
-    kdeadmin \
-    kdeconnect-kde \
-    kdegraphics \
-    kde-icons-mono
+    debconf-kde-helper \
+    kdeconnect \
     kdepim \
-    kdeplasma-addons \
-    kdeutils \
     kdewallpapers \
+    kde-service-menu-fuseiso \
     kde-style-qtcurve \
-    kde-style-polyester \
     kde-telepathy-call-ui \
     kwin-style-qtcurve \
-    plasma-containments-addons
+    plasma-widget-message-indicator \
+    plasma-widget-quickaccess \
+    plasma-widget-weatherforecast \
+    plasma-widget-cwp \
+    qtcurve
 
-# Education --------------------------------------------------------------------
-sudo apt-get install \
-    kstars
-
-# Games ------------------------------------------------------------------------
+# Education & Games ------------------------------------------------------------
 sudo apt-get install \
     gnugo \
     kajongg \
     knights \
-    konquest
+    konquest \
+    kstars
 
 # Multimedia -------------------------------------------------------------------
 sudo apt-get install \
-    clementine \
+    juk \
     kamerka \
     smplayer
 
@@ -130,12 +124,9 @@ sudo apt-get install \
     konq-plugins \
     konqueror \
     kpart-webkit \
-    krecipes \
-    kteatime \
+    ##krecipes \
     marble \
     marble-plugins \
-    recorditnow \
-    speedcrunch \
     synergy \
     yakuake
 
