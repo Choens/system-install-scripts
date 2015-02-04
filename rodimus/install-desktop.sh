@@ -123,8 +123,10 @@ sudo apt-get install \
 
 # Web --------------------------------------------------------------------------
 sudo apt-get install \
-    kget \
-    owncloud-client
+     chromium-browser \
+     icedtea-plugin \
+     kget \
+     owncloud-client
 
 # ==============================================================================
 # Remove Stuff

@@ -27,7 +27,7 @@
 
 # CLI / Libs --------------------------------------------------------------------
 sudo apt-get install \
-    akonadiconsole \
+    #akonadiconsole \
     deborphan \
     kgpg \
     kio-ftps \
@@ -43,7 +43,7 @@ sudo apt-get install \
 sudo apt-get install \
     openconnect \
     openswan \
-    openvpn \
+    openvpn \q
 
 # Hal enables Amazon Instant Videos  
 # sudo apt-get install --install-suggests \
@@ -86,6 +86,7 @@ sudo apt-get install --install-suggests \
 
 # KDE Meta ---------------------------------------------------------------------
 sudo apt-get install \
+    juk \
     kdeadmin \
     kdeconnect-kde \
     kdegraphics \
@@ -140,9 +141,10 @@ sudo apt-get install \
 
 # Web --------------------------------------------------------------------------
 sudo apt-get install \
-    firefox \
-    kget \
-    owncloud-client
+     chromium-browser \
+     icedtea-plugin \
+     kget \
+     owncloud-client
 
 
 

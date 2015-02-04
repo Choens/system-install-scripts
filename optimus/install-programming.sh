@@ -162,7 +162,7 @@ sudo apt-get install git-cola git-gui gitk python-inotify
 # ==============================================================================
 
 # META -------------------------------------------------------------------------
-sudo apt-get install kdewebdev kdesdk
+sudo apt-get install kdewebdev kdesdk vokoscreen
 
 # Desktop ----------------------------------------------------------------------
 sudo apt-get install kdiff3 krename krusader
@@ -174,7 +174,7 @@ sudo apt-get install kdiff3 krename krusader
 # ==============================================================================
 
 # CLI ---------------------------------------------------------------------
-sudo apt-get install html2text markdown pandoc
+sudo apt-get install html2text markdown pandoc pdf2htmlex
 
 # LaTeX ------------------------------------------------------------------------
 sudo apt-get install \

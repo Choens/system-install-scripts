@@ -194,8 +194,7 @@ sudo apt-get install git-cola git-gui gitk python-inotifyx
 sudo apt-get install kdiff3 krename krusader
 
 # META -------------------------------------------------------------------------
-## TODO REMOVE FROM LAPTOP . . . . at least the kdesdk
-sudo apt-get install kdewebdev kdesdk
+sudo apt-get install kdewebdev kdesdk vokoscreen
 
 
 # ==============================================================================
@@ -203,7 +202,7 @@ sudo apt-get install kdewebdev kdesdk
 # ==============================================================================
 
 # CLI ---------------------------------------------------------------------
-sudo apt-get install html2text markdown pandoc
+sudo apt-get install html2text markdown pandoc pdf2htmlex
 
 # LaTeX ------------------------------------------------------------------------
 sudo apt-get install \
