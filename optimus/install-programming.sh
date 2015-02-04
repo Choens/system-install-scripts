@@ -67,7 +67,7 @@ sudo apt-get install \
 sudo apt-get install \
     build-essential \
     cdbs \
-    checkbox-qt \
+    #checkbox-qt \
     checkinstall \
     curl \
     dosfstools \
@@ -96,12 +96,12 @@ sudo apt-get install \
     unixodbc-dev
 
 # Postgres ---------------------------------------------------------------------
-sudo apt-get install \
-    odbc-postgresql \
-    postgresql-client \
-    pgadmin3 \
-    pgagent \
-    pgloader
+#sudo apt-get install \
+#    odbc-postgresql \
+#    postgresql-client \
+#    pgadmin3 \
+#    pgagent \
+#    pgloader
 
 # Tora -------------------------------------------------------------------------
 sudo apt-get install libqt4-sql* tora
@@ -133,7 +133,7 @@ sudo apt-get install \
 sudo apt-get install kdevelop kdevelop-php kdevelop-php-docs ksshaskpass
 
 # Other ------------------------------------------------------------------------
-sudo apt-get install jedit
+#sudo apt-get install jedit
 
 
 
