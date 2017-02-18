@@ -10,6 +10,7 @@
 sudo apt-get install \
     colord-kde \
     darkroom \
+    darktable \
     digikam \
     digikam-doc \
     gwenrename \

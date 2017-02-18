@@ -28,29 +28,6 @@ sudo apt-get install \
     r-base-dev \
     r-base-html \
     r-cran-amelia \
-    r-cran-bayesm \
-    r-cran-boot \
-    r-cran-diagnosismed \
-    r-cran-dbi \
-    r-cran-downloader \
-    r-cran-epi \
-    r-cran-epitools \
-    r-cran-foreach \
-    r-cran-gdata \
-    r-cran-gtools \
-    r-cran-hmisc \
-    r-cran-medadherence \
-    r-cran-iterators \
-    r-cran-mapdata \
-    r-cran-maps \
-    r-cran-multicore \
-    r-cran-psy \
-    r-cran-randomforest \
-    r-cran-rcolorbrewer \
-    r-cran-rmysql \
-    r-cran-rodbc \
-    r-cran-vcd \
-    r-cran-xtable \
     r-doc-html \
     r-doc-info \
     r-recommended
@@ -67,15 +44,12 @@ sudo apt-get install \
 sudo apt-get install \
     build-essential \
     cdbs \
-    #checkbox-qt \
     checkinstall \
     curl \
-    dosfstools \
     dos2unix \
     ffe \
     gcc \
     gdb \
-    source-highlight \
     tmux
 
 
@@ -83,6 +57,9 @@ sudo apt-get install \
 # ==============================================================================
 # Databases
 # ==============================================================================
+
+# Mongo ------------------------------------------------------------------------
+sudo apt-get install mongodb-clients
 
 # MySQL ----------------------------------------------------------------------
 sudo apt-get install mysql-client mysql-utilities
@@ -95,29 +72,21 @@ sudo apt-get install \
     unixodbc-bin \
     unixodbc-dev
 
-# Postgres ---------------------------------------------------------------------
-#sudo apt-get install \
-#    odbc-postgresql \
-#    postgresql-client \
-#    pgadmin3 \
-#    pgagent \
-#    pgloader
-
 # Tora -------------------------------------------------------------------------
-sudo apt-get install libqt4-sql* tora
-
-# Other ------------------------------------------------------------------------
-# www.sql-workbench.net
-# dbeaver.jkiss.org
+sudo apt-get install \
+    libqt4-sql-mysql \
+    libqt4-sql-odbc \
+    tora
 
 
 
 # ==============================================================================
 # Editors / IDEs
-# ==============================================================================
+    ==============================================================================
 
 # Emacs ------------------------------------------------------------------------
 sudo apt-get install \
+    auctex \
     auto-complete-el \
     emacs-chess \
     emacs-goodies-el \
@@ -131,9 +100,6 @@ sudo apt-get install \
 
 # KDevelop ---------------------------------------------------------------------
 sudo apt-get install kdevelop kdevelop-php kdevelop-php-docs ksshaskpass
-
-# Other ------------------------------------------------------------------------
-#sudo apt-get install jedit
 
 
 
@@ -153,7 +119,7 @@ sudo apt-get install \
     tig
 
 # Desktop ----------------------------------------------------------------------
-sudo apt-get install git-cola git-gui gitk python-inotify
+sudo apt-get install git-cola git-gui gitk python-pyinotify
 
 
 
@@ -162,7 +128,12 @@ sudo apt-get install git-cola git-gui gitk python-inotify
 # ==============================================================================
 
 # META -------------------------------------------------------------------------
-sudo apt-get install kdewebdev kdesdk vokoscreen
+sudo apt-get install \
+    kdewebdev \
+    kdesdk-dolphin-plugins \
+    kdesdk-kio-plugins \
+    kdesdk-scripts \
+    vokoscreen
 
 # Desktop ----------------------------------------------------------------------
 sudo apt-get install kdiff3 krename krusader
@@ -174,13 +145,16 @@ sudo apt-get install kdiff3 krename krusader
 # ==============================================================================
 
 # CLI ---------------------------------------------------------------------
-sudo apt-get install html2text markdown pandoc pdf2htmlex
+sudo apt-get install html2text jekyll markdown pandoc pdf2htmlex
 
 # LaTeX ------------------------------------------------------------------------
 sudo apt-get install \
     lacheck \
+    latexdiff \
+    latex-beamer \
     texlive-latex-extra \
     texlive-latex-recommended \
+    texlive-luatex \
     texmaker
 
 
